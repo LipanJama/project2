@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    /* reseting ayaa la dhahaa */
+
+}
+
+body {
+    font-family: "poppins", sans-serif;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+
+}
+
+.container-sm {
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+
+.btn {
+    background-color: #02aa44;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+/* classkii waynaay oo backgroundka noo xalinaayay */
+nav {
+    /* shaashada dhan ha ku fadhiisto */
+    width: 100%;
+    background-color: #0f1410;
+    height: 73px;
+    padding: 10px;
+    position: fixed;
+
+
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/* marwalba wixii kula haboon aman design sidaa u aragto just waa very nice wax meel kuqoran majiraan 
+ma jirto qof dhahay waxaasaa loogu talagalay lakin best practices way jiran oo dadka isku
+ raacsanyihiin marka inaad dafirto maahan arinkaas wax markay jihiin shaashada percentage
+  kaa fiican oo dadka dhan ka dhexeeyaan specific
+ target garaynaysid ayaa la isticmaalaa pixelska iyo remka */
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+/* .menu.active {
+    display: block;
+} */
+
+.menu li {
+    margin: 10px;
+    list-style: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #c9cac9;
+}
+
+.show-case {
+    height: 95vh;
+
+    background-color: #0f1410;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.show-case-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+
+
+}
+
+
+
+
+.show-case-title {
+    color: white;
+    font-size: 3.5rem;
+    line-height: 0.95;
+    margin: 15px;
+    font-weight: 700;
+}
+
+.show-case-content {
+    margin: 15px;
+    font-size: 1.5rem;
+    color: #c9caca;
+}
+
+
+.store {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
+
+.store * {
+    margin: 10px;
+}
+
+.left img {
+    width: 100%;
+}
+
+.burger {
+    display: none;
+    width: 10%;
+    color: #fff;
+}
+
+.features {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    letter-spacing: 2px;
+}
+
+.features .left-side img {
+    width: 400px;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    padding: 14px;
+    margin: 10px;
+}
+
+.features .right-side .top-bar {
+    color: #02aa44;
+    padding: 10px;
+}
+
+.features .right-side h1 {
+    font-size: 1.7rem;
+    padding: 10px;
+
+}
+
+.features .right-side .text {
+    font-size: 1.15rem;
+    padding: 10px;
+    color: #606060;
+
+
+}
+
+.achievements {
+    width: 100%;
+    padding: 100px;
+}
+
+.achievement-item {
+    width: 30px;
+}
+
+@media(max-width:600px) {
+    .menu {
+        display: none;
+        width: 100px
+    }
+
+    .burger {
+        display: block;
+    }
+
+
+}
+
+
+
+/* .features {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.features .right-side {
+    display: flex;
+    flex-direction: column;
+    padding: 14px;
+    margin: 10px;
+} */

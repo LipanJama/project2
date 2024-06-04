@@ -1,0 +1,6 @@
+menugaan tag class listigiisa fiiri haddu active oow ku jiro ka bixi  hadii kalena ku dar
+absolute parentiga sheeygaan ka kudhago mashuu kasoo bilawday haka bilawdo
+let burger = document.querySelector(".burger");--soo qabo class magaciisa la dhaho burger
+burgerkaan igu sameeyo
+document.querySelector(".menu").classList.toggle("active"); waxaad soo qabataa menugaas aad soo qabatay class waaye classlist classyada uu heysto soo qabo waaye 
+toggle waxaa udhiibtay ayuu class listiga kudaraa haduu heysanin haduu heystana wuu ka qaadaa 

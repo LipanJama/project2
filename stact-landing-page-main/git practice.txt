@@ -1,0 +1,9 @@
+cd desktop
+mkdir abdiaziz
+cd abdiaziz
+touch index.html
+----------------------- file and folder created
+
+git init    // initilalize
+git add . //  add all files in the folder
+git commit -m "index.html added"// commit[
