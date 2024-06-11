@@ -4,7 +4,7 @@
     margin: 0px;
     padding: 0px;
     /* reseting ayaa la dhahaa */
-
+    box-sizing: border-box;
 }
 
 body {
@@ -50,6 +50,7 @@ header {
     align-items: center;
     justify-content: space-between;
 
+
 }
 
 /* marwalba wixii kula haboon aman design sidaa u aragto just waa very nice wax meel kuqoran majiraan 
@@ -59,7 +60,8 @@ ma jirto qof dhahay waxaasaa loogu talagalay lakin best practices way jiran oo d
  target garaynaysid ayaa la isticmaalaa pixelska iyo remka */
 .menu {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    font-size: 28px;
 }
 
 /* .menu.active {
@@ -67,13 +69,18 @@ ma jirto qof dhahay waxaasaa loogu talagalay lakin best practices way jiran oo d
 } */
 
 .menu li {
-    margin: 10px;
+    /* margin: 10px; */
+    padding: 10px;
     list-style: none;
 }
 
 .menu li a {
     text-decoration: none;
     color: #c9cac9;
+}
+
+.btn-primary {
+    font-size: 28px;
 }
 
 .show-case {
@@ -92,7 +99,7 @@ ma jirto qof dhahay waxaasaa loogu talagalay lakin best practices way jiran oo d
     align-items: center;
     padding: 20px;
     margin: 10px;
-
+    gap: 10px;
 
 }
 
@@ -176,8 +183,24 @@ ma jirto qof dhahay waxaasaa loogu talagalay lakin best practices way jiran oo d
     padding: 100px;
 }
 
-.achievement-item {
+/* .achievement-list {
+    width: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+} */
+
+.chievement-item {
     width: 30px;
+}
+
+
+.achievement-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
 }
 
 @media(max-width:600px) {
